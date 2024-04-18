@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Register Form</h1>
+	<form action="myregister.jtc">
+		<table>
+			<tr>
+				<td>Your Name</td>
+				<td><input type="text" name="fname" /></td>
+			</tr>
+
+			<tr>
+				<td>Email ID</td>
+				<td><input type="text" name="email" /></td>
+			</tr>
+
+			<tr>
+				<td>Phone No</td>
+				<td><input type="text" name="phone" /></td>
+			</tr>
+
+			<tr>
+				<td>Gender</td>
+				<td><input type="radio" name="gender" value="Male" />Male<br />
+					<input type="radio" name="gender" value="Female" />Female</td>
+			</tr>
+			<tr>
+				<td>Course</td>
+				<td><input type="checkbox" name="mycourses"
+					value="Full Stack Java Developer" />Java Developer Course<br /> <input
+					type="checkbox" name="mycourses" value="Full Stack Web Developer" />
+					Web	Developer Course<br /> 
+					
+					<input type="checkbox" name="mycourses"
+					value="Full Stack Python Developer" />Python Developer Course<br />
+				</td>
+			</tr>
+			<tr>
+				<td>Batch</td>
+				<td><select name="timings">
+						<option value="">---Select---</option>
+						<option value="10Am to 12Pm">10Am to 12Pm</option>
+						<option value="2Pm to 4Pm">2Pm to 4Pm</option>
+						<option value="4Pm to 6Pm">4Pm to 6Pm</option>
+						<option value="6Pm to 8Pm">6Pm to 8Pm</option></td>
+			</tr>
+			<tr>
+				<td>Remarks</td>
+				<td><textarea name="remarks" rows="6" cols="25"></textarea></td>
+			</tr>
+			<td colspan="2" align="center"><input type="submit"
+				value="RegisterNow" /></td>
+		</table>
+	</form>
+</body>
+</html>
